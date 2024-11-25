@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nem nắm Giao Thủy</title>
+    <link rel="stylesheet" href="nemnamgiaothuy.css">
+</head>
+<body>
+
+    <header>   
+        <div class="header-image"></div>
+         <div class="header-content">
+            <h1>Nem nắm Giao Thủy</h1>
+        </div>
+    </header>
+
+    <div class="nav-bar">
+        <a href="baitailon.html">Trang Chủ</a> <!-- Liên kết tới trang khác -->
+        <a href="https://foodi.com.vn/mon-ngon-nam-dinh/" target="_blank">Món Ngon</a>
+        <a href="https://vi.wikipedia.org/wiki/Nam_%C4%90%E1%BB%8Bnh" target="_blank">Giới Thiệu</a>
+        <a href="#">Liên Hệ</a>
+    </div>
+
+    <script>
+        window.addEventListener("scroll", function() {
+            var navBar = document.querySelector(".nav-bar");
+            if (window.scrollY > 50) { // Đặt khoảng cách cuộn mà hiệu ứng bắt đầu
+                navBar.classList.add("scrolled");
+            } else {
+                navBar.classList.remove("scrolled");
+            }
+        });
+        </script>
+
+<main>
+<!-- Section: lich su -->
+<section id="history" class="section">
+    <div class="history-container">
+        <img src="https://dacsanthanhnam.com/wp-content/uploads/2020/08/nem-nam-giao-thuy-1.jpg" 
+             alt="Phở Bò Nam Định" class="history-image">
+        <div class="history-text">
+            <h2>Lịch sử nem nắm Giao Thủy</h2>
+            <p>
+                Nem nắm Giao Thủy là một đặc sản truyền thống nổi tiếng của huyện Giao Thủy, Nam Định. Món ăn này không chỉ thể hiện tinh hoa ẩm thực vùng quê mà còn gắn liền với văn hóa lâu đời của người dân nơi đây.
+            </p>
+            <p>
+                Nem nắm Giao Thủy xuất hiện từ lâu đời, là món ăn đặc trưng trong các dịp lễ Tết, cỗ bàn, cưới hỏi tại Nam Định.
+Tên gọi "nem nắm" bắt nguồn từ cách chế biến: các nguyên liệu được trộn đều, sau đó nắm chặt thành từng nắm nhỏ để thưởng thức.
+            </p>
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Section: Công thức -->
+<section id="recipe" class="section">
+    <h2>Công Thức nem nắm Giao Thủy</h2>
+    <div class="recipe-container">
+        <!-- Nguyên liệu -->
+        <div class="recipe-ingredients">
+            <h3>Nguyên Liệu</h3>
+            <ul>
+                <li>Thịt lơn</li>
+                <li>Bì lợn</li>
+                <li>Thính gạo</li>
+                <li>Rau thơm: Lá đinh lăng, lá chanh thái sợi</li>
+                <li>Tỏi, lá sung, lá ổi, mắm cá cơm Giao Thủy (loại nước mắm truyền thống nổi tiếng của Nam Định)</li>
+              
+            </ul>
+        </div>
+        <!-- Cách nấu -->
+        <div class="recipe-steps">
+            <h3>Cách Nấu</h3>
+            <ol>
+                <li>Chuẩn bị thịt và bì:
+                    Thịt được luộc qua nước sôi, sau đó thái mỏng.
+                    Bì lợn cạo sạch, luộc chín, thái sợi.
+                    </li>
+                <li>Trộn nem:
+                    Thịt và bì được trộn đều cùng thính gạo, tỏi băm, nước mắm và các loại gia vị khác.
+                    Để khoảng 15-20 phút cho thính thấm đều.</li>
+                <li>Nắm nem:
+                    Hỗn hợp được nắm chặt thành từng nắm nhỏ, vừa tay.</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+    <!-- Section: gioi thieu quan an -->
+    <section id="restaurants" class="section">
+        <div class="content-container">
+            <h2>Những Quán nem nắm Giao Thủy Ngon</h2>
+            <div class="restaurant-grid">
+                <div class="restaurant-item">
+                    <img src="https://topnamdinhaz.com/wp-content/uploads/2024/03/nem-nam-nam-dinh_4.jpg" alt="Nem Nắm Giao Thuỷ – Duy Khánh">
+                    <p>Nem Nắm Giao Thuỷ – Duy Khánh</p>
+                    <p> Địa chỉ: 505 Trần Thái Tông, Lộc Vượng, TP. Nam Định, Nam Định 420000, Việt Nam.</p>
+                </div>
+                <div class="restaurant-item">
+                    <img src="https://topnamdinhaz.com/wp-content/uploads/2024/03/nem-nam-nam-dinh_2.jpg" alt="Nem nắm Bà Tằm">
+                    <p>Nem nắm Bà Tằm</p>
+                    <p>Địa chỉ: Xóm 11, Xuân Trường, Nam Định 420000, Việt Nam</p>
+                </div>
+                <div class="restaurant-item">
+                    <img src="https://topnamdinhaz.com/wp-content/uploads/2024/03/nem-nam-nam-dinh.jpg" alt="Nem nắm 361 (Thái Tử Gà) ">
+                    <p>Nem nắm 361 (Thái Tử Gà) </p>
+                    <p>Địa chỉ: 361 Trần Nhân Tông, Trần Hưng Đạo, TP. Nam Định, Nam Định, Việt Nam</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+
+ </footer>
+ <footer>
+    <div class="footer-content">
+        <p>Liên Hệ: 0969152217 | Email 1 : truongdinhchinh08032006@gmail.com</p>
+        <p>Liên Hệ: 0355009037 | Email 2 : giangdz309@gmail.com</p>
+        <p>&copy; 2024 Đặc Sản Nam Định.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/chinhhihi08032006" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/than.h8681/profilecard/?igsh=MTFrOHhxMnF4OG04Mw==" target="_blank">Instagram</a>
+        </div>
+    </div>
+    
+</footer>
+
+</body>
+</html>

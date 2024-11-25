@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bánh chè khò</title>
+    <link rel="stylesheet" href="banhchekho.css">
+</head>
+<body>
+
+    <header>   
+        <div class="header-image"></div>
+         <div class="header-content">
+            <h1>Bánh chè khò</h1>
+        </div>
+    </header>
+
+    <div class="nav-bar">
+        <a href="baitailon.html">Trang Chủ</a> <!-- Liên kết tới trang khác -->
+        <a href="https://foodi.com.vn/mon-ngon-nam-dinh/" target="_blank">Món Ngon</a>
+        <a href="https://vi.wikipedia.org/wiki/Nam_%C4%90%E1%BB%8Bnh" target="_blank">Giới Thiệu</a>
+        <a href="#">Liên Hệ</a>
+    </div>
+
+    <script>
+        window.addEventListener("scroll", function() {
+            var navBar = document.querySelector(".nav-bar");
+            if (window.scrollY > 50) { // Đặt khoảng cách cuộn mà hiệu ứng bắt đầu
+                navBar.classList.add("scrolled");
+            } else {
+                navBar.classList.remove("scrolled");
+            }
+        });
+        </script>
+
+<main>
+<!-- Section: lich su -->
+<section id="history" class="section">
+    <div class="history-container">
+        <img src="https://cly.1cdn.vn/2021/07/21/dantoctongiao.congly.vn-upload-content_img-2021-0721-_che-kho-mon-an-mang-huong-vi-que-huong_anh_1.jpg" 
+             alt="Bánh chè khò" class="history-image">
+        <div class="history-text">
+            <h2>Lịch Sử Bánh Chè Khò Nam Định</h2>
+            <p>
+                Chè kho Nam Định là một món đặc sản truyền thống nổi tiếng của tỉnh Nam Định, thường xuất hiện trong các dịp lễ Tết, rằm, hoặc những buổi cúng lễ quan trọng. Mặc dù gọi là "chè," món này có dạng khô và được bày trong đĩa thay vì cốc như chè thông thường. Nó mang ý nghĩa cầu chúc sự sung túc, may mắn, và đoàn viên cho gia đình.
+            </p>
+            <p>
+                Chè kho đã có từ lâu đời, là món dân dã của người dân Nam Định. Ngày xưa, chè được làm thủ công, vừa để thưởng thức, vừa để thể hiện sự khéo léo của người nội trợ. Đặc biệt, trong các ngày Tết, chè kho trở thành món không thể thiếu trên bàn thờ gia tiên, tượng trưng cho sự trọn vẹn và thịnh vượng
+            </p>
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Section: Công thức -->
+<section id="recipe" class="section">
+    <h2>Công Thức Bánh chè khò chuẩn ngon</h2>
+    <div class="recipe-container">
+        <!-- Nguyên liệu -->
+        <div class="recipe-ingredients">
+            <h3>Nguyên Liệu</h3>
+            <ul>
+                <li>Đậu xanh: Loại đậu xanh tách vỏ, được chọn kỹ, đảm bảo thơm và bở.</li>
+                <li>Đường: Thường dùng đường trắng hoặc đường phèn, tạo vị ngọt dịu.</li>
+                <li>Vừng rang: Rắc lên bề mặt chè để tăng hương thơm.</li>
+            </ul>
+        </div>
+        <!-- Cách nấu -->
+        <div class="recipe-steps">
+            <h3>Cách Nấu</h3>
+            <ol>
+                <li>Chuẩn bị đậu xanh: Ngâm đậu xanh, đãi sạch vỏ, rồi hấp chín. Sau đó, đậu được giã nhuyễn hoặc xay mịn.</li>
+                <li>Nấu chè: Hòa tan đường vào nước, đun sôi rồi cho đậu xanh đã giã vào. Quấy liên tục để hỗn hợp đặc sánh mà không bị vón cục.</li>
+                <li>Hoàn thiện: Khi chè đạt độ dẻo, đổ ra đĩa, nén chặt, rắc thêm vừng rang. Để nguội, chè sẽ trở nên đặc chắc và dễ bảo quản trong nhiều ngày</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+    <!-- Section: gioi thieu quan an -->
+    <section id="restaurants" class="section">
+        <div class="content-container">
+            <h2>Mua chè khò ở đâu </h2>
+            <div class="restaurant-grid">
+                <div class="restaurant-item">
+                    <img src="https://amthucvietnam365.vn/wp-content/uploads/2021/06/3-7.jpg" alt="Cửa hàng đặc sản Nam Định">
+                    <p>Cửa hàng đặc sản Nam Định</p>
+                    <p> Địa chỉ: 20 Trường Chinh, Bà Triệu, TP. Nam Định.
+                        Mức giá: Khoảng 25.000 VNĐ/đĩa. Đây là địa điểm bán chè kho được nhiều người địa phương và du khách yêu thích</p>
+                </div>
+                <div class="restaurant-item">
+                    <img src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/cach-lam-che-kho-ngon-13-e1506674086755.jpg" alt="Các khu chợ lớn ở Nam Định">
+                    <p>Các khu chợ lớn ở Nam Định</p>
+                    <p>Vào các dịp lễ, Tết hoặc rằm, chè kho thường được bày bán phổ biến tại các hàng quán ở chợ lớn trong khu vực trung tâm thành phố.</p>
+                </div>
+                <div class="restaurant-item">
+                    <img src="https://halotravel.vn/wp-content/uploads/2022/04/che-kho-Nam-Dinh.jpg" alt="Làng nghề truyền thống">
+                    <p>Làng nghề truyền thống</p>
+                    <p>Một số làng nghề làm chè kho ở Nam Định cung cấp chè kho chất lượng và giữ hương vị truyền thống. Hỏi thăm người dân địa phương sẽ giúp bạn tìm được các điểm bán trực tiếp từ gia đình sản xuất.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+
+ </footer>
+ <footer>
+    <div class="footer-content">
+        <p>Liên Hệ: 0969152217 | Email 1 : truongdinhchinh08032006@gmail.com</p>
+        <p>Liên Hệ: 0355009037 | Email 2 : giangdz309@gmail.com</p>
+        <p>&copy; 2024 Đặc Sản Nam Định.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/chinhhihi08032006" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/than.h8681/profilecard/?igsh=MTFrOHhxMnF4OG04Mw==" target="_blank">Instagram</a>
+        </div>
+    </div>
+    
+</footer>
+
+</body>
+</html>

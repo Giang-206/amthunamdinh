@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bánh nhãn Nam Định</title>
+    <link rel="stylesheet" href="banhnhan.css">
+</head>
+<body>
+
+    <header>   
+        <div class="header-image"></div>
+         <div class="header-content">
+            <h1>Bánh nhãn Nam Định</h1>
+        </div>
+    </header>
+
+    <div class="nav-bar">
+        <a href="baitailon.html">Trang Chủ</a> <!-- Liên kết tới trang khác -->
+        <a href="https://foodi.com.vn/mon-ngon-nam-dinh/" target="_blank">Món Ngon</a>
+        <a href="https://vi.wikipedia.org/wiki/Nam_%C4%90%E1%BB%8Bnh" target="_blank">Giới Thiệu</a>
+        <a href="#">Liên Hệ</a>
+    </div>
+
+    <script>
+        window.addEventListener("scroll", function() {
+            var navBar = document.querySelector(".nav-bar");
+            if (window.scrollY > 50) { // Đặt khoảng cách cuộn mà hiệu ứng bắt đầu
+                navBar.classList.add("scrolled");
+            } else {
+                navBar.classList.remove("scrolled");
+            }
+        });
+        </script>
+
+<main>
+<!-- Section: lich su -->
+<section id="history" class="section">
+    <div class="history-container">
+        <img src="data:image/jpeg;base64,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" 
+             alt="Bánh nhãn Nam Định" class="history-image">
+        <div class="history-text">
+            <h2>Bánh nhãn và những điều bạn nên biết</h2>
+            <p>
+                Bánh nhãn là một đặc sản truyền thống nổi tiếng của Nam Định, gắn liền với vùng đất và con người nơi đây. Mặc dù tên gọi "bánh nhãn" làm người ta dễ liên tưởng đến quả nhãn, nhưng thực tế loại bánh này không chứa nhãn mà chỉ lấy tên do hình dáng tròn nhỏ, vàng óng, giống như quả nhãn chín.
+            </p>
+            <p>
+                Bánh nhãn có nguồn gốc từ các làng quê ở Nam Định, đặc biệt phổ biến tại huyện Hải Hậu và Giao Thủy. Từ xưa, bánh nhãn được làm trong các dịp lễ Tết, cưới hỏi hoặc dùng để thờ cúng tổ tiên.Ngày nay, bánh nhãn Nam Định đã vượt ra khỏi ranh giới địa phương, trở thành một đặc sản được nhiều người yêu thích và tìm mua. Tuy nhiên, bánh nhãn truyền thống vẫn giữ được nét tinh túy nhất của vùng đất Nam Định.
+            </p>
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Section: Công thức -->
+<section id="recipe" class="section">
+    <h2>Công Thức Bánh nhãn Nam Định</h2>
+    <div class="recipe-container">
+        <!-- Nguyên liệu -->
+        <div class="recipe-ingredients">
+            <h3>Nguyên Liệu</h3>
+            <ul>
+                <li>Gạo nếp cái hoa vàng: Là thành phần chính, được chọn lọc kỹ lưỡng để bánh giữ được độ dẻo và thơm.</li>
+                <li>Trứng gà: Giúp bánh có màu vàng đẹp mắt và vị béo ngậy.</li>
+                <li>Đường và mỡ lợn: Được dùng để tạo vị ngọt thanh và lớp áo bóng bẩy bên ngoài.</li>
+            </ul>
+        </div>
+        <!-- Cách nấu -->
+        <div class="recipe-steps">
+            <h3>Cách Nấu chuẩn vị ngon</h3>
+            <ol>
+                <li>Gạo nếp được xay mịn thành bột, trộn với trứng để tạo thành hỗn hợp mềm.</li>
+                <li>Hỗn hợp được nặn thành những viên nhỏ, sau đó chiên trong chảo mỡ nóng cho đến khi bánh phồng, giòn.</li>
+                <li>Bánh sau khi chiên được lăn qua lớp đường đã thắng để tạo lớp vỏ ngọt ngào bên ngoài.</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+    <!-- Section: gioi thieu quan an -->
+    <section id="restaurants" class="section">
+        <div class="content-container">
+            <h2>Những địa chỉ có bánh nhãn Ngon Ở Nam Định</h2>
+            <div class="restaurant-grid">
+                <div class="restaurant-item">
+                    <img src="https://banhnhanhaihau.com/wp-content/uploads/2020/12/banh-nhan-hai-hau.jpg" alt="Bánh nhãn Hải Hậu">
+                    <p>Bánh nhãn Hải Hậu</p>
+                    <p> Cơ sở sản xuất: Xóm Phạm Giảng, Hải Tân, Hải Hậu, Nam Định</p>
+                </div>
+                <div class="restaurant-item">
+                    <img src="https://banhnhanhaihau.com/wp-content/uploads/2020/12/banh-nhan-hai-hau-loai-dac-biet.jpg" alt="Lưu Tuệ">
+                    <p>Bánh nhãn Lưu Tuệ</p>
+                    <p>Địa chỉ: 83 Đông Biên, TT. Yên Định, Hải Hậu, Nam Định.</p>
+                </div>
+                <div class="restaurant-item">
+                    <img src="https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:quality(100)/2023_12_11_638378840022578955_cach-lam-banh-nhan.jpg" alt="Vân Đích">
+                    <p>Bánh nhãn Vân Đích</p>
+                    <p>Địa Chỉ: Số nhà 99 tổ dân phố 6 yên định hải hậu, TT. Yên Định, Hải Hậu, Nam Định.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+
+ </footer>
+ <footer>
+    <div class="footer-content">
+        <p>Liên Hệ: 0969152217 | Email 1 : truongdinhchinh08032006@gmail.com</p>
+        <p>Liên Hệ: 0355009037 | Email 2 : giangdz309@gmail.com</p>
+        <p>&copy; 2024 Đặc Sản Nam Định.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/chinhhihi08032006" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/than.h8681/profilecard/?igsh=MTFrOHhxMnF4OG04Mw==" target="_blank">Instagram</a>
+        </div>
+    </div>
+    
+</footer>
+
+</body>
+</html>
